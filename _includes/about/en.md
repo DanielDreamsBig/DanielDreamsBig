@@ -1,6 +1,6 @@
 # About
-Welcome to Amy Sang and Daniel's blog. Amy and Daniel are majoring in finance and statistics respectively. March 16th is a day worth remembering every year.
+Welcome to Daniel's personal blog. Daniel is a recently graduate majoring in statistics, with talent in python programming.
 
-Amy is a sophomore majoring in finance. He mainly studies green finance and has some insights into food culture.
+E-mail: danielzhang2021@outlook.com
 
-Daniel is a junior majoring in statistics, majoring in probability statistics and data analysis. I like computers ~~but prefer my wife~~.
+
