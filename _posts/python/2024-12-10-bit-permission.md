@@ -1,8 +1,6 @@
-
 ---
 layout: post
 title: "优雅且高效的权限管理——利用位运算"
-subtitle: "Mastering permission management with bitwise operations"
 date:  2024-12-10 14:20:00
 excerpt: 掌握位运算，可以用更少的代码高效实现对权限的赋予、移除和检查。
 mathjax: false
