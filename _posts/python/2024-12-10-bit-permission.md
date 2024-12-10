@@ -65,7 +65,8 @@ def has_permission(current, permission):
 
 
 1. 添加权限 A 和 B：
-```
+
+```python
 permissions = add_permission(permissions, PERMISSION_A)  # 添加权限 A
 permissions = add_permission(permissions, PERMISSION_B)  # 添加权限 B
 print(f"当前权限: {bin(permissions)}")  # 输出二进制表示
@@ -81,7 +82,9 @@ else:
 ```
 
 2. 移除权限 A：
-```
+
+
+```python
 permissions = remove_permission(permissions, PERMISSION_A)  # 移除权限 A
 print(f"移除权限 A 后: {bin(permissions)}")
 if has_permission(permissions, PERMISSION_A):
@@ -97,6 +100,7 @@ else:
 
 ### 赋予权限
 通过按位或 `|` 操作，将对应权限位设置为 `1`。例如：
+
 ```python
 current = 0b0010
 permission = 0b0001
@@ -105,6 +109,7 @@ new_permissions = current | permission  # 结果为 0b0011
 
 ### 移除权限
 通过按位非 `~` 和按位与 `&`，将对应权限位设置为 `0`。例如：
+
 ```python
 current = 0b0011
 permission = 0b0001
@@ -113,6 +118,7 @@ new_permissions = current & ~permission  # 结果为 0b0010
 
 ### 检查权限
 通过按位与 `&` 操作检测某位是否为 `1`：
+
 ```python
 current = 0b0011
 permission = 0b0001
